@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+.ss
+{
+    width: 60%;
+    border: 1px solid black;
+    padding: 20px;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+h2{
+    text-align: center;
+    margin-bottom: 2px;
+}
+#fname, #lname, #email, #phno{
+    width: 100%;
+    height:20px;
+}
+input{
+    margin-top: 5px;
+}
+.s1{
+    font-weight: bold;
+}
+.btn{
+    text-align: center;
+}
+input[type=submit]{
+    width: 30%;
+    background-color: gray;
+    color: #000;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+body > table{
+    width: 50%;
+}
+
+table{ 
+    border-collapse: collapse;
+}
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even),table.list thead>tr {
+    background-color: #dddddd;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#table-1{
+    margin-top: 5px;
+    width: 60%;
+    padding: 20px;
+    margin-left:auto;
+    margin-right: auto;
+}
+button{
+    cursor: pointer;
+    color: black;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
